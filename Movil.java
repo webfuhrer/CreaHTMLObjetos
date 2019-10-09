@@ -41,5 +41,10 @@ public class Movil {
     public void setGama(String gama) {
         this.gama = gama;
     }
+
+    @Override
+    public String toString() {
+        return "Movil{" + "marca=" + marca + ", modelo=" + modelo + ", gama=" + gama + '}';
+    }
     
 }

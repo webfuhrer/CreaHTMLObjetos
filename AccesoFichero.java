@@ -5,6 +5,9 @@
  */
 package com.mycompany.proyectomovil;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  *
  * @author CDMFP

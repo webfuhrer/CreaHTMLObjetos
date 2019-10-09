@@ -5,6 +5,8 @@
  */
 package com.mycompany.proyectomovil;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CDMFP
@@ -30,6 +32,7 @@ public class ClasePrincipal {
                             AccesoFichero.grabarLinea(html_tabla, "C:\\rutainventada\\archivo.html");
                             break;
                     }
+                    opcion=EntradaSalida.pedirOpcion();
      }  
     }
    
